@@ -1,0 +1,29 @@
+{
+  "name": "@theworker02/planflag",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Plan lightweight flag statistics from stdin samples.",
+  "bin": {
+    "planflag": "src/cli.js"
+  },
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "node --test"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/theworker02/planflag.git"
+  },
+  "homepage": "https://theworker02.github.io/planflag/",
+  "keywords": [
+    "plan",
+    "flag",
+    "stat",
+    "cli",
+    "toolkit"
+  ]
+}
